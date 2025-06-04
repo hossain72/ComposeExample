@@ -1,4 +1,4 @@
-package com.rul.compose_example.new_jetpack_compose.fundamantal_concept_2
+package com.rul.compose_example.new_jetpack_compose.core_components_3
 
 import androidx.compose.foundation.basicMarquee
 import androidx.compose.foundation.layout.*
