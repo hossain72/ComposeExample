@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.rul.compose_example.new_jetpack_compose.core_components_3.SimpleText
 import com.rul.compose_example.new_jetpack_compose.core_components_3.TextFieldExample
+import com.rul.compose_example.new_jetpack_compose.fundamantal_concept_2.Greeting
 import com.rul.compose_example.ui.theme.Compose_exampleTheme
 
 class MainActivity : ComponentActivity() {
@@ -14,6 +15,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Compose_exampleTheme {
+                // Greeting()
+                //SimpleText()
                 TextFieldExample()
             }
         }
