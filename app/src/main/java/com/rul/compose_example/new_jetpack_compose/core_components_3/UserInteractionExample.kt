@@ -31,7 +31,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun UserInteraction() {
+fun UserInteractionExample() {
 
     val customSelectionColor = TextSelectionColors(
         handleColor = Color.Red,
@@ -121,8 +121,8 @@ fun UserInteraction() {
     }
 }
 
-@Preview
+@Preview(showSystemUi = true)
 @Composable
-fun PreviewUserInteraction() {
-    UserInteraction()
+fun PreviewUserInteractionExample() {
+    UserInteractionExample()
 }
