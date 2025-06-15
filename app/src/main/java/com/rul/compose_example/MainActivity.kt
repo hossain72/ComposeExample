@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.rul.compose_example.new_jetpack_compose.bottom_sheet_5.BottomSheetExample
+import com.rul.compose_example.new_jetpack_compose.check_box_7.CheckBoxExample
 import com.rul.compose_example.new_jetpack_compose.core_components_3.ButtonExample
 import com.rul.compose_example.new_jetpack_compose.core_components_3.ImageExample
 import com.rul.compose_example.new_jetpack_compose.core_components_3.SimpleText
@@ -27,7 +28,8 @@ class MainActivity : ComponentActivity() {
                 //ButtonExample()
                 //ImageExample()
                 //ConstraintLayoutExample()
-                BottomSheetExample()
+                //BottomSheetExample()
+                CheckBoxExample()
             }
         }
     }
