@@ -6,7 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.rul.compose_example.new_jetpack_compose.menu_11.DropDownMenuExample
 //import com.rul.compose_example.new_jetpack_compose.navigation_drawer_13.NavigationDrawerExample
-//import com.rul.compose_example.new_jetpack_compose.scaffold_12.ScaffoldExample
+import com.rul.compose_example.new_jetpack_compose.scaffold_12.ScaffoldExample
 import com.rul.compose_example.ui.theme.Compose_exampleTheme
 
 class MainActivity : ComponentActivity() {
