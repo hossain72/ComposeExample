@@ -9,6 +9,8 @@ import com.rul.compose_example.new_jetpack_compose.navigation_drawer_13.Navigati
 import com.rul.compose_example.new_jetpack_compose.progress_indicator_14.ProgressIndicatorExample
 //import com.rul.compose_example.new_jetpack_compose.pull_to_refresh_15.PullToRefreshExample
 import com.rul.compose_example.new_jetpack_compose.scaffold_12.ScaffoldExample
+//import com.rul.compose_example.new_jetpack_compose.search_bar_16.DropdownSearchBarExample
+//import com.rul.compose_example.new_jetpack_compose.search_bar_16.SearchBarExample
 import com.rul.compose_example.ui.theme.Compose_exampleTheme
 
 class MainActivity : ComponentActivity() {
@@ -33,6 +35,8 @@ class MainActivity : ComponentActivity() {
                 //NavigationDrawerExample()
                 //ProgressIndicatorExample()
                 //PullToRefreshExample()
+                //SearchBarExample()
+                //DropdownSearchBarExample()
             }
         }
     }
