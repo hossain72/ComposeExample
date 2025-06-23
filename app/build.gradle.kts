@@ -58,4 +58,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     implementation (libs.androidx.constraintlayout.compose)
+    implementation (libs.androidx.material.icons.extended)
 }
