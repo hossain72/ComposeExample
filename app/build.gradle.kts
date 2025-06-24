@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    kotlin("plugin.serialization") version "2.1.21"
 }
 
 android {
@@ -59,4 +60,11 @@ dependencies {
 
     implementation (libs.androidx.constraintlayout.compose)
     implementation (libs.androidx.material.icons.extended)
+
+    implementation(libs.kotlinx.serialization.json)
+    implementation (libs.bottombar)
+
+    implementation (libs.androidx.navigation.compose)
+
+
 }
