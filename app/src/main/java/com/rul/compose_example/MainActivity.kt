@@ -1,5 +1,6 @@
 package com.rul.compose_example
 
+//import DropdownSearchExample
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -57,6 +58,7 @@ class MainActivity : ComponentActivity() {
                 //BasicBottomNavBar()
                 //App()
                 //AnimationExample()
+                //DropdownSearchExample()
             }
         }
     }
